@@ -5,4 +5,7 @@ fun main() {
     var test3 = "!"
 
     println("$test1 $test2$test3")
+
+    val x1 = 1; val x2 = 2; val x3 = 3
+    println ("$x1 + ${x2+x3}")
 }

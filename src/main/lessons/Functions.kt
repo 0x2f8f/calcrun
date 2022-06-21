@@ -1,3 +1,5 @@
+package main.lessons
+
 import kotlin.math.*
 
 fun main() {
@@ -13,7 +15,7 @@ fun discriminant(a: Int, b: Int, c: Int) = sqr(b) - 4 * a * c
 
 fun coube(x: Int): Int {
     var result: Int
-    result = x*x
+    result = x * x
     result *= x
 
     return result
