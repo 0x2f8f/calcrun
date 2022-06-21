@@ -28,3 +28,17 @@ fun sqrt2(a: Double): Double {
 fun sqrt3(a: Double): Double {
     return sqrt(a)
 }
+
+fun inInt(x: Int, a: Int, b: Int): Boolean {
+    return x > a && x < b
+}
+
+fun inArrayInt(x: Int, nums: Array<Int>): Boolean {
+    for (a in nums) {
+        if (a == x) {
+            return true
+        }
+    }
+
+    return false;
+}
