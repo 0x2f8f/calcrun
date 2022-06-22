@@ -25,6 +25,15 @@ public class Tests {
     }
 
     @Test
+    fun whenCheck() {
+        assertEquals(inRange(2, 1, 3, 4,6), "range 1-3")
+        assertEquals(inRange(5, 1, 3, 4,6), "range 4-6")
+        assertEquals(inRange(7, 1, 3, 4,6), "not in range")
+        assertEquals(inRange(4, 1, 3, 4,6), "range 4-6")
+        assertEquals(inRange(6, 1, 3, 4,6), "range 4-6")
+    }
+
+    @Test
     fun arrayCheck() {
         assertEquals(4, positionInArr(3, arrayOf(1, 2, 3, 4, 5, 6)))
         assertTrue(issetWordInArr("Ivan", arrayOf("Ivanov", "Ivan", "Ivanovich")))
