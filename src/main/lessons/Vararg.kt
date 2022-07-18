@@ -22,7 +22,7 @@ fun printVars(vararg words: String) {
 fun printUserGroup(count: Int, vararg names: String) {
     println("Count: $count")
     for (name in names) {
-        print(name + " ")
+        print("$name ")
     }
     println("\n")
 }
