@@ -7,6 +7,7 @@ fun main() {
     println("Max age 18, 30: "+ maxAge(18, 30))
     println("Max age -2, -5: "+ maxAge(-2, -5))
     println("Max age 110, 120: "+ maxAge(110, 120))
+    println("Max age 10, 20: "+ maxAge(10, 20))
 }
 
 fun oneLineCoube(x: Int) = x * x * x
