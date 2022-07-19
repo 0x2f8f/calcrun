@@ -38,7 +38,11 @@ fun main() {
 
     //example 8
     val sum2 = { x: Int, y: Int -> x + y }
-    doOperation2(3, 4, sum)
+    doOperation2(3, 4, sum2)
+
+    //example 9
+    val sum3: (Int, Int) -> Int = { x, y -> x + y }
+    doOperation2(4, 5, sum3)
 }
 
 fun doOperation2(a: Int, b: Int, oper: (Int, Int) -> Int) {
