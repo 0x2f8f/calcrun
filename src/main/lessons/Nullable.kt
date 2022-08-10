@@ -15,5 +15,5 @@ fun main() {
 }
 
 fun displayUser(name: String, age: Int = 18, position: String="unemployed"){
-    println("Name: $name   Age: $age  Position: $position")
+    println("Name: $name, Age: $age, Position: $position")
 }
