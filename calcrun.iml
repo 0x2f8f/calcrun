@@ -35,5 +35,6 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="jetbrains.kotlinx.coroutines.core.jvm" level="project" />
   </component>
 </module>
