@@ -1,5 +1,6 @@
 package main.lessons.scope
 
+import main.lessons.oop.Employee
 import main.lessons.oop.User
 
 fun main() {
@@ -11,4 +12,12 @@ fun main() {
     }
 
     println(tom.email)
+
+    val bob = Employee()
+    bob.name("Bob")
+        .age(18)
+        .company("Adidas")
+
+    println("${bob.name} (${bob.age}) - ${bob.company}")
+
 }
