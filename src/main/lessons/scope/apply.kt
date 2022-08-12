@@ -8,10 +8,12 @@ fun main() {
     tom.apply {
         if (email == null) {
             email = "${name.lowercase()}@gmail.com"
+            nick = this.name.lowercase()
         }
     }
 
     println(tom.email)
+    println("Nick: ${tom.nick}")
 
     val bob = Employee()
     bob.name("Bob")
