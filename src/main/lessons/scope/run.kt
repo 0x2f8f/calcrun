@@ -13,4 +13,18 @@ fun main() {
     }
 
     println(emailOfTom) // tom@gmail.com
+
+
+    val sam = User("Sam", "sam@gmail.com")
+    var issetEmail = sam.email?.run { "isset" } ?: "not isset"
+    println(issetEmail) //isset
+
+    val bob = User("Bob", null)
+    issetEmail = bob.email?.run { "isset" } ?: "not isset"
+    println(issetEmail) //not isset
+
+    val textVal = run {"Hello world"}
+    println(textVal)
+
+    run { println("Welcome!") }
 }
