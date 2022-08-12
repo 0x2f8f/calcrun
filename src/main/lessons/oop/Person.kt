@@ -15,6 +15,7 @@ fun main() {
 class Person {
     var name: String = "Undefined"
     var age: Int = 18
+    var email: String = ""
 
     fun hello() {
         println("Hello, my name is $name")
