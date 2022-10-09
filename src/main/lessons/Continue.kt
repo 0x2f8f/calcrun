@@ -7,7 +7,9 @@ fun main() {
         if (len > 1) {
             if (len%2 == 0) {
                 println(1)
-                continue;
+                if (len == 4) {
+                    continue;
+                }
             } else {
                 println(2)
             }
