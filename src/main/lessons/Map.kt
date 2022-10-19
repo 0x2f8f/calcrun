@@ -19,7 +19,7 @@ fun main() {
 private fun mapFunction() {
     val peopleToAge = mapOf("Alice" to 20, "Bob" to 21)
     println(peopleToAge.map { (name, age) -> "$name is $age years old" }) // [Alice is 20 years old, Bob is 21 years old]
-    println(peopleToAge.map { (key) -> "$key" }) // [Alice, Bob]
+    println(peopleToAge.map { (key) -> key }) // [Alice, Bob]
     println(peopleToAge.map { it.value }) // [20, 21]
 }
 
