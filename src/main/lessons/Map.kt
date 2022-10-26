@@ -2,6 +2,9 @@ package main.lessons
 
 fun main() {
     val people = mapOf(1 to "Tom", 4 to "Sam", 8 to "Bob")
+    println(people[1])
+    println(people[2])
+
     printMap(people)
 
     val dictionary = mapOf("red" to "красный", "blue" to "синий", "green" to "зеленый")
