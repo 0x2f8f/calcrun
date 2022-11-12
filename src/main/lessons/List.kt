@@ -50,4 +50,11 @@ fun main() {
 
     numbers2.clear()
     println(numbers2)
+
+    val numbers3 : ArrayList<Int> = arrayListOf()
+    numbers3.add(0,11)
+    numbers3.add(1,22)
+    numbers3.add(2,33)
+    println(numbers3)
+    println(numbers3[1])
 }

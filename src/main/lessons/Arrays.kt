@@ -7,6 +7,11 @@ fun main() {
     val nums = intArrayOf(4, 5, 6)
     double(nums)
     println("Значение в функции main: ${nums[0]}")
+
+    val dialogScores: IntArray = intArrayOf(0, 0, 0, 0)
+    dialogScores[0] = 70
+    dialogScores.set(1, 30)
+    println(dialogScores[2])
 }
 
 fun positionInArr(position: Int, nums: Array<Int>): Int {
